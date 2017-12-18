@@ -1,0 +1,25 @@
+#news-letter input, #address-container .address-box input, #logo-container .right-inner-addon input
+{
+  padding: 12px;
+}
+
+#megaNavBar .health-resource a span
+{
+  display: inline-block;
+  -ms-word-wrap: break-word;
+}
+
+#logo-container .right-inner-addon a
+{
+  font-size: 1.7rem;
+}
+
+#layoutsTable
+{
+  table-layout: fixed;
+}
+
+#layoutsTable, #layoutsTable tr, #layoutsTable tr td
+{
+  width: 100%;
+}
