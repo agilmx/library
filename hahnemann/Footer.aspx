@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Paladin - St. Christopher's</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<%@ Page Language="C#" %>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<meta name="WebPartPageExpansion" content="full" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Paladin - Hahnemann</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="https://www.hahnemannhospital.com/SiteAssets/css/theme_hahnemann.css" />
     <link rel="stylesheet" type="text/css" href="https://www.hahnemannhospital.com/SiteAssets/css/hahnemann.css" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<SharePoint:CssRegistration Name="default" runat="server"/>
 </head>
+
 
 <body>
     <div class="paladin-container mt-5" id="explore-all-container">
