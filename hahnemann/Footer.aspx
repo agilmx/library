@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <%@ Page Language="C#" %>
+<%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
@@ -32,7 +33,7 @@
             <div class="paladin-col-md-12">
                 <div class="inner-container accent-bg-1">
                     <footer class="pb-2 pt-3">
-                    
+
                         <div id="footerNav" class="plNavWrp" v-cloak=v-cloak>
 							<ul class="plNavList">
                                 <li v-for="item in menuItems">
@@ -41,9 +42,9 @@
                                         <li v-for="subitem in item.subItems"><a v-bind:href="subitem.link">{{ subitem.Name }}</a></li>
                                     </ul>
                                 </li>
-                            </ul>                            
+                            </ul>
                         </div>
-                        
+
                     </footer>
                 </div>
 
@@ -69,16 +70,16 @@
         </div>
     </div>
     <!--Footer Ends-->
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/vue.min.js"></script>  
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/axios.min.js"></script>    
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/polyfill.min.js"></script>       
+    <script src="https://www.hahnemannhospital.com/SiteAssets/js/vue.min.js"></script>
     <script src="https://www.hahnemannhospital.com/SiteAssets/js/tether.js"></script>
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/j-sliding-banner.js"></script>       
-    
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/stchris.js"></script>    
-    <script src="https://www.hahnemannhospital.com/SiteAssets/js/plmain.js"></script>    
+    <script src="https://www.hahnemannhospital.com/SiteAssets/js/j-sliding-banner.js"></script>
+
+    <script src="https://www.hahnemannhospital.com/SiteAssets/js/stchris.js"></script>
+    <script src="https://www.hahnemannhospital.com/SiteAssets/js/plmain.js"></script>
+
+    <script src="https://www.hahnemannhospital.com/SiteAssets/js/menu.js"></script>    
     <script src="https://www.hahnemannhospital.com/SiteAssets/js/header.js"></script>
     <script src="https://www.hahnemannhospital.com/SiteAssets/js/footer.js"></script>
-        
+
 </body>
 </html>
